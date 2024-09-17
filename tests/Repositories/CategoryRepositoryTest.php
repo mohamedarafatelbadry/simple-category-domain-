@@ -1,7 +1,7 @@
 <?php namespace Tests\Repositories;
 
-use App\Models\Category;
-use App\Repositories\CategoryRepository;
+use Domains\Category\Models\Category;
+use Domains\Category\Repositories\CategoryRepository;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;
 use Tests\ApiTestTrait;
