@@ -14,9 +14,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->register(provider: TestServiceProvider::class);
+// add domains service providers
         $this->app->register(provider: CategoryServiceProvider::class);
-        $this->app->register(provider: SliderServiceProvider::class);
     }
 
     /**
